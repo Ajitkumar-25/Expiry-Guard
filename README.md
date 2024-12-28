@@ -116,6 +116,13 @@ ExpiryGuard is a comprehensive, collaborative real-time supply chain management 
    VITE_URL=http://localhost:5001
    ```
 
+5. **Temporary Login Credentials:**
+
+| User Type    | Email             | Password |
+|--------------|-------------------|----------|
+| **Retailer** | `12345@gmail.com` | `12345`  |
+| **Supplier** | `1234@gmail.com`  | `1234`   |
+
 ---
 
 ## Contributions
