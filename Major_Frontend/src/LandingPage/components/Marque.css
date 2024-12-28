@@ -1,0 +1,25 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 15s linear infinite;
+}
+
+/* Styling for hover effects on items */
+.marquee-content > div:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s;
+}
